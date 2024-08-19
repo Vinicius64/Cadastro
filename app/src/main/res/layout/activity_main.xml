@@ -72,5 +72,16 @@
             android:text="Feminino" />
     </RadioGroup>
 
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/rgGender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
